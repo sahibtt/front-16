@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <label for="loanAmount">Loan Amount (AZN)</label>
+    <input type="number" name="loanAmount" id="amount">
+    <span>(1 AZN - 30000 AZN)</span> <br>
+    <label for="loanTerm">Loan Term (Monthly)</label> 
+    <input type="number" name="loanTerm" id="months">
+    <span>(1 Month - 60 Month)</span> <br>
+    <label for="interestRate">Interest Rate (%)</label>
+    <input type="number" name="interestRate" id="interest">
+    <span>(14 % - 27 %)</span> <br>
+    <button onclick="calculate()">Calculate</button>
+    <h1>Monthly Amount</h1>
+    <p id="monthlyAmount"></p>
+    <h1>Total Amount</h1>
+    <p id="totalAmount"></p>
+</body>
+<script src="./assets/javascript/script.js"></script>
+</html>
